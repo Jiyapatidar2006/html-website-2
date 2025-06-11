@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR portal</title>
+</head>
+<body>
+    <header>
+        <h1>Wellcome To Company HR Portal </h1>
+        <nav>
+        <ul>
+            <li class="navitem"><a href="#Employee-Registration">Employee-Registration</a></li>
+            <li class="navitem"><a href="#Employee-Directory">Employee-Directory</a></li>
+            <li class="navitem"><a href="#Contact-Us">Contact-Us</a></li>
+        </ul>
+        </nav>
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+                font-family: Arial, Helvetica, sans-serif;
+                background-color:#a7bff9;
+            }
+            header,footer{
+                background-color: #5683ec;
+                color: rgb(56, 29, 29);
+                text-align: center;
+                padding: 2px;
+            }
+            .navitem{
+                display: inline;
+                padding:15px;
+            }
+            .navitem a{
+                text-decoration: none;
+                color:rgb(56, 29, 29);
+
+            }
+            .registerform{
+                width: max-content;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .employeetable{
+                text-align: center;
+            }
+            table{
+                width: 100%;
+                margin-left: auto;
+                margin-right: auto;
+                border-collapse: collapse;
+            }
+            th,td{
+                border: 1px solid #5683ec ;
+                padding: 8px;
+                
+            }
+            .contactus{
+                text-align: center;
+            }
+
+        </style>
+    </header><br>
+    <img src="https://img.freepik.com/free-vector/social-distancing-meeting_23-2148560124.jpg?semt=ais_hybrid&w=740" style="height: 400px;width:100%;">
+    <section id="Employee-Registration " class="registerform">
+        <h2>Employee-Registration Form </h2>
+        <p>Fill the below form to register as employee </p>
+        <form>
+            
+            <lable for="name">Name:</lable>
+            <input type="text" placeholder="enter name" id="name"><br><br>
+            <lable for="e-mail">E-mail:</lable>
+            <input type="email" placeholder="enter email" id="email"><br><br>
+            <lable for="passward">Passward:</lable>
+            <input type="password" placeholder="enter passward" id="passward"><br><br>
+            <lable for="age">Age:</lable>
+            <input type="number" placeholder="enter age" id="age"><br><br>
+            <lable for="role" >select your role</lable>
+            <select>
+                <option>Softwere-engineer</option>
+                <option>Product manager</option>
+                <option>Designer</option>
+                <option>HR representator</option>
+                
+            </select><br><br>
+            <lable for="joining date" >select joining date</lable>
+            <input type="date" id="joining date"><br><br>
+            <input type="submit"><br><br>
+            </form>
+            </section>
+
+            <section id="Employee-Directory" class="employeetable">
+                <h2>Employee-Directory</h2>
+            <p>list of all registered employees</p>
+            <table >
+                <tr style="border: 1px;">
+                    <th>Employee Name</th>
+                    <th>Employee ID</th>
+                    <th>Employee roll</th>
+                </tr>
+                <tr style="border: 1px solid black;">
+                    <td>Nitisha patidar</td>
+                    <td>0403CD241022</td>
+                    <td>Softwere-engineer</td>
+                </tr>
+                <tr style="border: 1px solid black;">
+                    <td>Nandini patidar</td>
+                    <td>0403CD241038</td>
+                    <td>Softwere-engineer</td>
+                </tr>
+                <tr style="border: 1px solid black;">
+                    <td>Ummehani soni</td>
+                    <td>0403CD241065</td>
+                    <td>Product manager </td>
+                </tr>
+                <tr style="border: 1px solid black;">
+                    <td>Alak kag</td>
+                    <td>0403CD241006</td>
+                    <td>Designer</td>
+                </tr>
+                <tr style="border: 1px solid black;">
+                    <td>Payal prajapat</td>
+                    <td>0403CD241044</td>
+                    <td>HR representator</td>
+                </tr>
+            </table>
+ </section><br><br>
+
+            <section id="Contact-Us" class="contactus">
+                <h2>Contact Us</h2>
+                <p>you can contact us us on company@official.com or visit office between 9AM - 6PM</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.0427464607587!2d77.31338697528658!3d28.568479075699745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce446cd69d94b%3A0x8c317ff6e20dc208!2sMicrosoft%20India%20(R%26D)%20Pvt.%20Ltd.%2C!5e0!3m2!1sen!2sin!4v1749460571025!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+
+            </section>
+            
+
+        </form>
+
+    </section>
+    <footer>
+        <p>&copy; 2023 Company name</p>
+    </footer>
+</body>
+</html>
